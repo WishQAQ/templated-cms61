@@ -1,0 +1,63 @@
+<div class="container container_nav cf">
+    <a href="{dede:global.cfg_basehost/}" class="logo focus">
+        <img src="{dede:global.cfg_basehost/}/style/images/logo/logo.png" width="200" height="65" />
+        <div class="choose_"></div>
+    </a>
+    <ul class="nav">
+        <li class="navItem_1">
+            {dede:type typeid='1'}
+            <a href="[field:typelink /]" class="icon_nav icon_nav_1">
+                <span class="gaoguang"></span>
+                <img src="[field:global.cfg_basehost/]/style/images/icon_1.png" width="95" height="145" />
+            </a>
+            <a href="[field:typelink /]" class="nav_txt">[field:typename /]</a>
+            <div class="choose_1"></div>
+            {/dede:type}
+        </li>
+        <li class="navItem_2">
+            {dede:type typeid='2'}
+            <span class="gaoguang"></span>
+            <a href="[field:typelink /]" class="icon_nav icon_nav_2">
+                <img src="[field:global.cfg_basehost/]/style/images/icon_2.png" width="70" height="126" />
+            </a>
+            <a href="[field:typelink /]" class="nav_txt">[field:typename /]</a>
+            <div class="choose_2"></div>
+            {/dede:type}
+        </li>
+        <li class="navItem_3">
+            {dede:type typeid='3'}
+            <span class="gaoguang"></span>
+            <a href="[field:typelink /]" class="icon_nav icon_nav_3">
+                <img src="[field:global.cfg_basehost/]/style/images/icon_3.png" width="81" height="100" />
+            </a>
+            <a href="[field:typelink /]" class="nav_txt">[field:typename /]</a>
+            <div class="choose_3"></div>
+            {/dede:type}
+        </li>
+        <li class="navItem_4">
+            {dede:type typeid='4'}
+            <span class="gaoguang"></span>
+            <a href="[field:typelink /]" class="icon_nav icon_nav_4">
+                <img src="[field:global.cfg_basehost/]/style/images/icon_4.png" width="89" height="89" />
+            </a>
+            <a href="[field:typelink /]" class="nav_txt">[field:typename /]</a>
+            <div class="choose_4"></div>
+            {/dede:type}
+        </li>
+    </ul>
+</div>
+
+
+<style>
+    .choose_{dede:type}[field:ID /]{/dede:type}{
+        width:66px;height:48px;position:absolute;left:50%;margin-left:-33px;background:url({dede:global.cfg_basehost/}/style/images/choose.png) center center no-repeat;bottom:-35px;
+        transform-origin: 50% 0%;
+        -moz-transform-origin: 50% 0%;
+        -webkit-transform-origin: 50% 0%;
+        -o-transform-origin: 50% 0%;
+        animation: choose infinite alternate 0.7s ease-in-out;
+        -moz-animation: choose infinite alternate 0.7s ease-in-out;
+        -webkit-animation: choose infinite alternate 0.7s ease-in-out;
+        -o-animation: choose infinite alternate 0.7s ease-in-out;
+    }
+</style>

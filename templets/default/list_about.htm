@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.seotitle /}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+
+<!--公共脚本-->
+<!--jquery-->
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/plugin/jquery/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/plugin/jquery/jquery.easing.1.3.js"></script>
+
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/common.js"></script>
+
+<!--公共样式-->
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_basehost/}/style/css/common.css"/>
+
+
+<!--本页脚本-->
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/sevice.js"></script>
+</head>
+
+<body>
+
+{dede:include filename='head.htm'/}
+
+<!--关于我们标题-->
+<div class="container  container_full title_coloumn">
+	<span class="cn">关于我们</span>
+    <span class="en"><img src="{dede:global.cfg_basehost/}/style/images/eq/title_about.png" /></span>
+    <div class="title_coloumn_line"><img src="{dede:global.cfg_basehost/}/style/images/title_tip.gif" width="20" height="31" class="title_img" /></div>
+</div>
+
+<!--关于我们内容-->
+<div class="container container_1000 container_edit m_center b_70">
+	<p style="text-indent:0;"><img src="{dede:global.cfg_basehost/}/style/images/eq/about.png" width="1000" height="194" /></p>
+    <br />
+	<p>公司创立于2014年，紧随互联网普及性发展，商业模式更新交替，市场格局导致竞争加剧，企业营销方式如何实现投入产出的突破革新，如何借助新媒体营销的生命力与影响力，创造企业持续经营的蓝海领域。</p>
+	<p>武汉拾艺信息技术有限公司以帮助中国企业创造新媒体品牌蓝海为使命，致力于成为中国最优秀的新媒体营销实践创造者。帮助企业在新媒体营销领域实现从无到有，从有到新，从新到精的品牌蜕变。</p>
+	<p>公司定位：网站建设，网络推广，网络运营</p>
+    <p>团队使命：帮助中国企业创造新媒体品牌蓝海</p>
+	<p>企业文化：开放，务实，进取，创新</p>
+</div>
+
+
+<!--团队成员标题-->
+<div class="container  container_full title_coloumn">
+	<span class="cn">团队成员</span>
+    <span class="en"><img src="{dede:global.cfg_basehost/}/style/images/eq/title_team.png" /></span>
+    <div class="title_coloumn_line"><img src="{dede:global.cfg_basehost/}/style/images/title_tip.gif" width="20" height="31" class="title_img" /></div>
+</div>
+
+<!--团队成员-->
+<div class="container container_1000 m_center cf b_70 cf">
+    
+    <!--团队成员-->
+    <div class="container_team cf">
+        {dede:list pagesize='50'  channelid='1'}
+    	<div class="cell_wrap cell_team">
+            <a href="[field:arcurl/]" target="_blank">
+            <div class="cell_wrap_b">
+                <div class="cell_wrap_container">
+                    <span class="teme_img">
+                        <img width="300" height="300" src="[field:picname/]">
+                    </span>
+                </div>
+                <div class="cf team_txt">
+                    <p class="team_title">[field:title/]</p>
+                    <p class="team_intro">[field:description function='cn_substr(Html2text("@me"),160)'/]</p>
+                    <p class="team_intro"><b>QQ：</b>[field:qq/]</p>
+                    <p class="team_intro"><b>Blog：</b><a target="_blank" href="[field:boke/]">[field:boke/]</a></p>
+                </div>
+            </div>
+            </a>
+        </div>
+        {/dede:list}
+    </div>
+    
+</div>
+
+{dede:include filename='lianxi.htm'/}
+
+{dede:include filename='footer.htm'/}
+
+</body>
+</html>

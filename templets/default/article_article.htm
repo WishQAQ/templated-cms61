@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+
+<!--公共脚本-->
+<!--jquery-->
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/plugin/jquery/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/plugin/jquery/jquery.easing.1.3.js"></script>
+
+<!--尚软前端脚本-->
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/common.js"></script>
+
+<!--公共样式-->
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_basehost/}/style/css/common.css"/>
+
+</head>
+
+<body>
+
+{dede:include filename='head.htm'/}
+
+<!--下一个上一个-->
+<div class="container cf container_next">
+	<div class="container container_1000 m_center cf">
+
+		<a href="{dede:field name='typeurl' function="GetTypeName（@me）"/}" class="next f_left liebiao">
+        	<span class="t1">{dede:field name='typename' function="GetTypeName（@me）"/}</span>
+            <span class="t2">{dede:field name='typename' function="GetTypeName（@me）"/}</span>
+        </a>
+        <a href="{dede:prenext get='next'/}" class="next f_right" id="js_next">
+            <span class="t1">下一个</span>
+            <span class="t2">下一个</span>
+        </a>
+        <a href="{dede:prenext get='pre'/}" class="next f_right" id="js_last">
+            <span class="t1">上一个</span>
+            <span class="t2">上一个</span>
+        </a>
+		
+    </div>
+</div>
+
+<!--案例展示-->
+<div class="container container_1000 m_center cf b_70">
+	
+    <!-- case_edit为编辑器输入的内容 -->
+    <div class="f_left case_left case_edit">
+    	<div class="container_case">
+            <div class="biaoti"><h1>{dede:field.title/}</h1></div>
+	    	<div class="zhengwen">{dede:field.body/}</div>
+        </div>
+    </div>
+    
+    <!--右侧信息-->
+    <div class="f_right case_right">
+    	<!--小图-->
+    	<div class="case_small cf b_30">
+        	<img src="{dede:field.picname function='html2text(@me)'/}" width="240" />
+        </div>
+        
+        <div class="cell_wrap_call js_fixed">
+            <!--案例信息-->
+            <div class="cell_wrap b_30">
+                <div class="cell_wrap_b">
+                    <div class="cell_wrap_container">
+                        <h1 class="case_title">个人介绍</h1>
+                        <p class="case_intro"><span>网址：</span><a href="{dede:field.boke function='html2text(@me)'/}" target="_blank">{dede:field.boke function='html2text(@me)'/}</a></p>
+                        <p class="case_intro"><span>介绍：</span>{dede:field.description function='html2text(@me)'/}</p>
+                    </div>
+                </div>
+                <div class="after"></div>
+            </div>
+            
+            <!--合作信息-->
+            <div class="cell_wrap">
+                <div class="cell_wrap_b">
+                    <div class="cell_wrap_container">
+                        <h1 class="case_title">合作联系</h1>
+                        <p class="case_intro"><span>邮箱：</span>123456789@qq.com</p>
+                        <p class="case_intro"><span>电话：</span>13557848484 400-4000-400</p>
+                        <p class="case_intro"><span>介绍：</span>深圳市龙岗区布吉镇布龙路1712</p>
+                        <div class="wrap_qq">
+                            <a class="qqzaixian" href="#this">在线客服</a>
+                            <a class="qqzaixian" href="#this">在线客服</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="after"></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+{dede:include filename='footer.htm'/}
+
+
+</body>
+</html>

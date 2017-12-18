@@ -1,0 +1,15 @@
+INSERT INTO `dede_uploads` VALUES('1','0','160614/1-160614140156495.png','/uploads/160614/1-160614140156495.png','1','260','260','0','138122','1465884116','1');
+INSERT INTO `dede_uploads` VALUES('2','1','姓名　前端工程师','/uploads/160614/1-1606141402401P.png','1','260','260','0','138122','1465884160','1');
+INSERT INTO `dede_uploads` VALUES('3','2','姓名2 php开发工程师','/uploads/allimg/160614/1-160614141Z40-L.jpg','1','0','0','0','40282','1465885144','1');
+INSERT INTO `dede_uploads` VALUES('4','3','姓名2　前端工程师','/uploads/allimg/160614/1-1606141419510-L.jpg','1','0','0','0','50883','1465885191','1');
+INSERT INTO `dede_uploads` VALUES('5','4','姓名1 高级设计师','/uploads/allimg/160614/1-1606141420510-L.jpg','1','0','0','0','53322','1465885251','1');
+INSERT INTO `dede_uploads` VALUES('6','5','姓名3 设计师','/uploads/allimg/160614/1-1606141422230-L.jpg','1','0','0','0','60249','1465885343','1');
+INSERT INTO `dede_uploads` VALUES('7','6','姓名3　前端工程师','/uploads/allimg/160614/1-1606141422470-L.jpg','1','0','0','0','54640','1465885367','1');
+INSERT INTO `dede_uploads` VALUES('8','7','红色大气投资理财类织梦cms模板','/uploads/allimg/160614/1-1606141519130-L.png','1','0','0','0','44633','1465888753','1');
+INSERT INTO `dede_uploads` VALUES('9','8','红色大气投资理财类织梦cms模板2','/uploads/allimg/160614/1-1606141520540-L.jpg','1','0','0','0','14997','1465888854','1');
+INSERT INTO `dede_uploads` VALUES('10','9','红色大气投资理财类织梦cms模板3','/uploads/allimg/160614/1-1606141521200-L.png','1','0','0','0','52522','1465888880','1');
+INSERT INTO `dede_uploads` VALUES('11','10','红色大气投资理财类织梦cms模板4','/uploads/allimg/160614/1-1606141522030-L.jpg','1','0','0','0','16471','1465888923','1');
+INSERT INTO `dede_uploads` VALUES('12','11','红色大气投资理财类织梦cms模板5','/uploads/allimg/160614/1-1606141522250-L.jpg','1','0','0','0','20241','1465888945','1');
+INSERT INTO `dede_uploads` VALUES('13','12','红色大气投资理财类织梦cms模板6','/uploads/allimg/160614/1-1606141522520-L.png','1','0','0','0','52343','1465888972','1');
+INSERT INTO `dede_uploads` VALUES('14','13','娱乐网站帝国cms 整站源码 带部分数据','/uploads/allimg/160614/1-1606141524120-L.png','1','0','0','0','52343','1465889052','1');
+INSERT INTO `dede_uploads` VALUES('15','14','整站源码 整站源码 整站源码 整站源码 整站源码','/uploads/allimg/160614/1-1606141525210-L.png','1','0','0','0','58413','1465889121','1');

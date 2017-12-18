@@ -1,0 +1,40 @@
+<?php
+$z[0]=Array("field","",254,277);
+$z[0][4]['name']="seotitle";
+$z[1]=Array("field","",318,347);
+$z[1][4]['name']="keywords";
+$z[2]=Array("field","",387,446);
+$z[2][4]['name']="description";
+$z[2][4]['function']="html2text(@me)";
+$z[3]=Array("global","",524,551);
+$z[3][4]['name']="cfg_basehost";
+$z[4]=Array("global","",639,666);
+$z[4][4]['name']="cfg_basehost";
+$z[5]=Array("global","",761,788);
+$z[5][4]['name']="cfg_basehost";
+$z[6]=Array("global","",888,915);
+$z[6][4]['name']="cfg_basehost";
+$z[7]=Array("global","",1002,1029);
+$z[7][4]['name']="cfg_basehost";
+$z[8]=Array("include","",1082,1117);
+$z[8][4]['filename']="head.htm";
+$z[9]=Array("global","",1273,1300);
+$z[9][4]['name']="cfg_basehost";
+$z[10]=Array("global","",1390,1417);
+$z[10][4]['name']="cfg_basehost";
+$z[11]=Array("type","<a href=\"[field:typelink /]\" class=\"focus\">全部</a>",1668,1755);
+$z[11][4]['typeid']="2";
+$z[12]=Array("channel","\r\n      	<a href=\"[field:typeurl/]\">[field:typename/]</a>\r\n        ",1765,1879);
+$z[12][4]['row']="5";
+$z[12][4]['type']="son";
+$z[13]=Array("list","\r\n    	<div class=\"cell_wrap cell_wrap_case\">\r\n            <div class=\"cell_wrap_b\">\r\n                <div class=\"cell_wrap_container\">\r\n                    <a class=\"case_img\" href=\"[field:arcurl/]\">\r\n                        <img src=\"[field:picname/]\" />\r\n                    </a>\r\n                </div>\r\n                <div class=\"cf case_txt\">\r\n                    <a href=\"[field:arcurl/]\" class=\"f_left\">[field:title/]</a>\r\n                    <span class=\"f_right\">[field:typelink/]</span>\r\n                </div>\r\n            </div>\r\n            <div class=\"after\"></div>\r\n        </div>\r\n        ",1970,2615);
+$z[13][4]['pagesize']="12";
+$z[14]=Array("pagelist","",2661,2725);
+$z[14][4]['istitem']="index,pre,next,end,end,";
+$z[14][4]['listsize']="3";
+$z[15]=Array("include","",2749,2786);
+$z[15][4]['filename']="lianxi.htm";
+$z[16]=Array("include","",2790,2827);
+$z[16][4]['filename']="footer.htm";
+
+?>

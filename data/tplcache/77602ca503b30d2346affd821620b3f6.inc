@@ -1,0 +1,1 @@
+<a href="[field:typelink /]" class="focus">全部</a>

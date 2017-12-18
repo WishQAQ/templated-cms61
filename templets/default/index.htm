@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+
+<!--公共脚本-->
+<!--jquery-->
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/plugin/jquery/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/plugin/jquery/jquery.easing.1.3.js"></script>
+
+
+<script type="text/javascript" src="{dede:global.cfg_basehost/}/style/js/common.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(e) {
+		//首页轮播
+        xlc.tabList ("#js_diannao" , "mouseover" , "focus" , true , 3000);
+    });
+</script>
+
+<!--公共样式-->
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_basehost/}/style/css/common.css"/>
+
+</head>
+
+<body>
+
+{dede:include filename='head.htm'/}
+
+<!--蔓藤-->
+<div class="container m_center container_manteng">
+	<img class="ye ye1" src="{dede:global.cfg_basehost/}/style/images/yezi/ye_1.png" width="24" height="22" />
+    <img class="ye ye2" src="{dede:global.cfg_basehost/}/style/images/yezi/ye_2.png" width="34" height="24" />
+    <img class="ye ye3" src="{dede:global.cfg_basehost/}/style/images/yezi/ye_3.png" width="24" height="22" />
+    <img class="ye ye4" src="{dede:global.cfg_basehost/}/style/images/yezi/ye_4.png" width="19" height="28" />
+    <img class="ye ye5" src="{dede:global.cfg_basehost/}/style/images/yezi/ye_5.png" width="12" height="20" />
+    <img class="ye ye6" src="{dede:global.cfg_basehost/}/style/images/yezi/ye_6.png" width="18" height="30" />
+    <img class="ye ye7" src="{dede:global.cfg_basehost/}/style/images/yezi/chong.png" width="21" height="25" />
+	<img src="{dede:global.cfg_basehost/}/style/images/manteng.png" width="410" height="152" />
+</div>
+
+
+<div class="container container_geban">
+	<div class="container container_indexmain">
+    	<div class="diannao" id="js_diannao">
+        	<ul class="lunbo js_slideWrap">
+            	<li style="background-image:url({dede:global.cfg_basehost/}/style/images/index/l_1.png)">
+                	<p class="p1"><img src="{dede:global.cfg_basehost/}/style/images/index/img_1.png" /></p>
+                    <p class="p2"><img src="{dede:global.cfg_basehost/}/style/images/index/img_2.png" /></p>
+                </li>
+                <li style="background-image:url({dede:global.cfg_basehost/}/style/images/index/l_2.png)">
+                	<p class="p1"><img src="{dede:global.cfg_basehost/}/style/images/index/img_3.png" /></p>
+                    <p class="p2"><img src="{dede:global.cfg_basehost/}/style/images/index/img_4.png" /></p>
+                </li>
+                <li style="background-image:url({dede:global.cfg_basehost/}/style/images/index/l_3.png)">
+                	<p class="p1"><img src="{dede:global.cfg_basehost/}/style/images/index/img_5.png" /></p>
+                    <p class="p2"><img src="{dede:global.cfg_basehost/}/style/images/index/img_6.png" /></p>
+                </li>
+            </ul>
+            <ul class="lunbo_tip js_slideTip">
+            	<li class="focus"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        	<img src="{dede:global.cfg_basehost/}/style/images/index/gaoguang.png" width="379" height="225" class="gaoguang_diannao" />
+            <img src="{dede:global.cfg_basehost/}/style/images/index/diannao.png" width="417" height="305" />
+        </div>
+        <div class="ps">
+            <img src="{dede:global.cfg_basehost/}/style/images/index/ps.png" width="124" height="197" />
+        </div>
+    </div>
+</div>
+
+
+{dede:include filename='footer.htm'/}
+
+</body>
+</html>
